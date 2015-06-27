@@ -1,0 +1,38 @@
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+    <xsd:element name="XMLSOCCER.COM">
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jaxb:class name="GetAllTeamsDemoResponse"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Team" maxOccurs="unbounded" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <jaxb:property name="teams"/>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                    <xsd:complexType>
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <jaxb:class name="DemoTeam"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                        <xsd:sequence>
+                            <xsd:element type="xsd:short" name="Team_Id"/>
+                            <xsd:element type="xsd:string" name="Name"/>
+                            <xsd:element type="xsd:string" name="Country"/>
+                            <xsd:element type="xsd:string" name="Stadium"/>
+                            <xsd:element type="xsd:string" name="HomePageURL"/>
+                            <xsd:element type="xsd:string" name="WIKILink"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element type="xsd:string" name="AccountInformation"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,303 @@
+<XMLSOCCER.COM>
+    <Team>
+        <Team_Id>926</Team_Id>
+        <Name>EAST FIFE</Name>
+        <Country>Scotland</Country>
+        <Stadium>Bayview Stadium</Stadium>
+        <HomePageURL>http://www.eastfifefc.info/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/East_Fife_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>927</Team_Id>
+        <Name>STENHOUSEMUIR</Name>
+        <Country>Scotland</Country>
+        <Stadium>Ochilview Park</Stadium>
+        <HomePageURL>http://www.stenhousemuirfc.com/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Stenhousemuir_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>928</Team_Id>
+        <Name>FORFAR</Name>
+        <Country>Scotland</Country>
+        <Stadium>Station Park</Stadium>
+        <HomePageURL>http://www.forfarathletic.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Forfar_Athletic_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>360</Team_Id>
+        <Name>Ross County</Name>
+        <Country>Scotland</Country>
+        <Stadium>Victoria Park</Stadium>
+        <HomePageURL>http://www.rosscountyfootballclub.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Ross_County_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>522</Team_Id>
+        <Name>Dundee FC</Name>
+        <Country>Scotland</Country>
+        <Stadium>Dens Park</Stadium>
+        <HomePageURL>http://www.dundeefc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Dundee_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>561</Team_Id>
+        <Name>Partick</Name>
+        <Country>Scotland</Country>
+        <Stadium>Firhill Stadium</Stadium>
+        <HomePageURL>http://www.ptfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Partick_Thistle_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>562</Team_Id>
+        <Name>Raith Rvs</Name>
+        <Country>Scotland</Country>
+        <Stadium>Stark's Park</Stadium>
+        <HomePageURL>http://www.raithrovers.net/index.php/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Raith_Rovers_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>563</Team_Id>
+        <Name>Ayr</Name>
+        <Country>Scotland</Country>
+        <Stadium>Somerset Park</Stadium>
+        <HomePageURL>http://www.ayrunitedfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Ayr_United_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>565</Team_Id>
+        <Name>Stirling</Name>
+        <Country>Scotland</Country>
+        <Stadium>Forthbank Stadium</Stadium>
+        <HomePageURL>http://www.stirlingalbionfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Stirling_Albion_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>566</Team_Id>
+        <Name>Clyde</Name>
+        <Country>Scotland</Country>
+        <Stadium>Broadwood Stadium</Stadium>
+        <HomePageURL>http://www.clydefc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Clyde_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>706</Team_Id>
+        <Name>Arbroath</Name>
+        <Country>Scotland</Country>
+        <Stadium>Gayfield Park</Stadium>
+        <HomePageURL>http://www.arbroathfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Arbroath_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>707</Team_Id>
+        <Name>Alloa</Name>
+        <Country>Scotland</Country>
+        <Stadium>Recreation Park</Stadium>
+        <HomePageURL>http://www.alloaathletic.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Alloa_Athletic_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>760</Team_Id>
+        <Name>Queen of South</Name>
+        <Country>Scotland</Country>
+        <Stadium>Palmerston Park</Stadium>
+        <HomePageURL>http://www.qosfc.com/</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Queen_of_the_South_F.C.
+        </WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>45</Team_Id>
+        <Name>Aberdeen</Name>
+        <Country>Scotland</Country>
+        <Stadium>Pittodrie Stadium</Stadium>
+        <HomePageURL>http://www.afc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Aberdeen_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>46</Team_Id>
+        <Name>St Johnstone</Name>
+        <Country>Scotland</Country>
+        <Stadium>McDiarmid Park</Stadium>
+        <HomePageURL>http://www.perthstjohnstonefc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/St._Johnstone_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>47</Team_Id>
+        <Name>Motherwell</Name>
+        <Country>Scotland</Country>
+        <Stadium>Fir Park Stadium</Stadium>
+        <HomePageURL>http://www.motherwellfc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Motherwell_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>48</Team_Id>
+        <Name>Inverness C</Name>
+        <Country>Scotland</Country>
+        <Stadium>Caledonian Stadium</Stadium>
+        <HomePageURL>http://ictfc.com</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.
+        </WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>49</Team_Id>
+        <Name>Rangers</Name>
+        <Country>Scotland</Country>
+        <Stadium>Ibrox Stadium</Stadium>
+        <HomePageURL>http://www.rangers.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Rangers_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>50</Team_Id>
+        <Name>Hearts</Name>
+        <Country>Scotland</Country>
+        <Stadium>Tynecastle Stadium</Stadium>
+        <HomePageURL>http://www.heartsfc.co.uk/page/Home</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Heart_of_Midlothian_F.C.
+        </WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>51</Team_Id>
+        <Name>Dundee United</Name>
+        <Country>Scotland</Country>
+        <Stadium>Tannadice Park</Stadium>
+        <HomePageURL>http://www.dundeeunitedfc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Dundee_United_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>52</Team_Id>
+        <Name>Kilmarnock</Name>
+        <Country>Scotland</Country>
+        <Stadium>Rugby Park</Stadium>
+        <HomePageURL>http://www.kilmarnockfc.co.uk/page/Home</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Kilmarnock_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>53</Team_Id>
+        <Name>Hibernian</Name>
+        <Country>Scotland</Country>
+        <Stadium>Easter Road</Stadium>
+        <HomePageURL>http://www.hibernianfc.co.uk/page/Home</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Hibernian_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>54</Team_Id>
+        <Name>Celtic</Name>
+        <Country>Scotland</Country>
+        <Stadium>Celtic Park</Stadium>
+        <HomePageURL>http://www.celticfc.net</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Celtic_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>55</Team_Id>
+        <Name>Dunfermline</Name>
+        <Country>Scotland</Country>
+        <Stadium>East End Park</Stadium>
+        <HomePageURL>http://www.dafc.co.uk/page/Home</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Dunfermline_Athletic_F.C.
+        </WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>56</Team_Id>
+        <Name>St Mirren</Name>
+        <Country>Scotland</Country>
+        <Stadium>St. Mirren Park</Stadium>
+        <HomePageURL>http://www.saintmirren.net/pages/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/St._Mirren_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>254</Team_Id>
+        <Name>Falkirk</Name>
+        <Country>Scotland</Country>
+        <Stadium>Falkirk Stadium</Stadium>
+        <HomePageURL>http://www.falkirkfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Falkirk_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>291</Team_Id>
+        <Name>Gretna</Name>
+        <Country>Scotland</Country>
+        <Stadium/>
+        <HomePageURL/>
+        <WIKILink>http://en.wikipedia.org/wiki/Gretna_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>674</Team_Id>
+        <Name>Brechin</Name>
+        <Country>Scotland</Country>
+        <Stadium>Glebe Park</Stadium>
+        <HomePageURL>http://www.brechincity.com/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Brechin_City_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>675</Team_Id>
+        <Name>Stranraer</Name>
+        <Country>Scotland</Country>
+        <Stadium>Stair Park</Stadium>
+        <HomePageURL>http://www.stranraerfc.org/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Stranraer_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>556</Team_Id>
+        <Name>Airdrie Utd</Name>
+        <Country>Scotland</Country>
+        <Stadium>New Broomfield</Stadium>
+        <HomePageURL>http://www.airdriefc.com/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Airdrie_United_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>557</Team_Id>
+        <Name>Dumbarton</Name>
+        <Country>Scotland</Country>
+        <Stadium>The Bet Butler Stadium</Stadium>
+        <HomePageURL>http://www.dumbartonfootballclub.com/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Dumbarton_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>558</Team_Id>
+        <Name>Cowdenbeath</Name>
+        <Country>Scotland</Country>
+        <Stadium>Central Park</Stadium>
+        <HomePageURL>http://www.cowdenbeathfc.com/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Cowdenbeath_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>559</Team_Id>
+        <Name>Morton</Name>
+        <Country>Scotland</Country>
+        <Stadium>Cappielow Park</Stadium>
+        <HomePageURL>http://www.gmfc.net/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Greenock_Morton_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>560</Team_Id>
+        <Name>Livingston</Name>
+        <Country>Scotland</Country>
+        <Stadium>Almondvale Stadium</Stadium>
+        <HomePageURL>http://www.livingstonfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Livingston_F.C.</WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>228</Team_Id>
+        <Name>Hamilton</Name>
+        <Country>Scotland</Country>
+        <Stadium>New Douglas Park</Stadium>
+        <HomePageURL>http://www.acciesfc.co.uk/</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Hamilton_Academical_F.C.
+        </WIKILink>
+    </Team>
+    <Team>
+        <Team_Id>1095</Team_Id>
+        <Name>PETERHEAD (SF)</Name>
+        <Country>Scotland</Country>
+        <Stadium>Balmoor</Stadium>
+        <HomePageURL>http://www.peterheadfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Peterhead_F.C.</WIKILink>
+    </Team>
+    <AccountInformation>
+        Data requested at 6/25/2015 11:17:50 PM from 155.4.62.122, Username: emlr. You are correctly logged into the Demo-service, and only records from the Scottish Premier League can be extracted here. If no data is shown, no matches were found using the specified parameters. If you are using the livescore-method and no matches are returned, it is because no matches is currently being played in the Scottish Premier League.
+    </AccountInformation>
+</XMLSOCCER.COM>

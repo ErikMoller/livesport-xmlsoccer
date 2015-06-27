@@ -1,0 +1,41 @@
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+            jaxb:version="2.1">
+
+    <xsd:element name="XMLSOCCER.COM" >
+        <xsd:annotation>
+            <xsd:appinfo>
+                <jaxb:class name="GetAllLeaguesDemoResponse"/>
+            </xsd:appinfo>
+        </xsd:annotation>
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="League" maxOccurs="unbounded" minOccurs="0">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <jaxb:property name="leagues"/>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                    <xsd:complexType>
+                        <xsd:annotation>
+                            <xsd:appinfo>
+                                <jaxb:class name="DemoLeague"/>
+                            </xsd:appinfo>
+                        </xsd:annotation>
+                        <xsd:sequence>
+                            <xsd:element type="xsd:byte" name="Id"/>
+                            <xsd:element type="xsd:string" name="Name"/>
+                            <xsd:element type="xsd:string" name="Country"/>
+                            <xsd:element type="xsd:string" name="Historical_Data"/>
+                            <xsd:element type="xsd:string" name="Fixtures"/>
+                            <xsd:element type="xsd:string" name="Livescore"/>
+                            <xsd:element type="xsd:short" name="NumberOfMatches"/>
+                            <xsd:element type="xsd:dateTime" name="LatestMatch"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element type="xsd:string" name="AccountInformation"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
