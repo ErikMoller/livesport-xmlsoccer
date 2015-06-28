@@ -11,7 +11,7 @@ import com.sumb.livesport.xmlsoccer.demo.converter.TeamsResponseConverter;
 public class XmlSoccerDemoClient extends AbstractXmlSoccerClient {
 
     XmlSoccerDemoClient(String host, String apiKey) {
-        super(host, apiKey,
+        super(host,
                 new XmlSoccerDemoHttpGetGenerator(apiKey),
                 new LeaguesConverter(),
                 new TeamsResponseConverter());

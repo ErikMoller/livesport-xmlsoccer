@@ -20,19 +20,18 @@ import java.util.Objects;
  */
 public abstract class AbstractXmlSoccerClient implements XmlSoccerClient {
 
-    protected final String apiKey;
     protected final HttpHost host;
     protected final CloseableHttpClient client;
     private final XmlSoccerHttpGetGenerator httpGetGenerator;
     private final GetAllLeaguesResponseConverter getAllLeaguesResponseConverter;
     private final GetAllTeamsResponseConverter getAllTeamsResponseConverter;
 
-    protected AbstractXmlSoccerClient(String host, String apiKey, XmlSoccerHttpGetGenerator httpGetGenerator,
+    protected AbstractXmlSoccerClient(String host,
+                                      XmlSoccerHttpGetGenerator httpGetGenerator,
                                       GetAllLeaguesResponseConverter getAllLeaguesResponseConverter,
                                       GetAllTeamsResponseConverter getAllTeamsResponseConverter) {
         client = HttpClientBuilder.create().build();
         this.host = new HttpHost(Objects.requireNonNull(host, "host"));
-        this.apiKey = Objects.requireNonNull(apiKey, "apiKey");
         this.httpGetGenerator = Objects.requireNonNull(httpGetGenerator, "httpGetGenerator");
         this.getAllLeaguesResponseConverter = Objects.requireNonNull(getAllLeaguesResponseConverter, "getAllLeaguesResponseConverter");
         this.getAllTeamsResponseConverter = Objects.requireNonNull(getAllTeamsResponseConverter, "getAllTeamsResponseConverter");
