@@ -12,6 +12,7 @@
         <module>livesport-xmlsoccer-domain</module>
         <module>livesport-xmlsoccer-api</module>
         <module>livesport-xmlsoccer-api-runtime</module>
+        <module>livesport-xmlsoccer-api-factory</module>
     </modules>
 
     <build>

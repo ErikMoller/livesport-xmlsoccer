@@ -12,7 +12,7 @@ public class XmlSoccerClientImplIntegrationTest {
 
     @Test
     public void testGetAllTeams() {
-        XmlSoccerClient client = new XmlSoccerClientImpl();
+        XmlSoccerClient client = new XmlSoccerDemoClient();
 
         GetAllTeamsResponse teamsResponse = client.getAllTeams();
 

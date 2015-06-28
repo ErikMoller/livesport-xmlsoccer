@@ -17,13 +17,19 @@ import java.io.IOException;
  * @author Erik Möller <mailto:erik.moller@live.com>
  * @since 1.0
  */
-public class XmlSoccerClientImpl implements XmlSoccerClient {
+public class XmlSoccerDemoClient implements XmlSoccerClient {
 
-    private static CloseableHttpClient client = HttpClientBuilder.create().build();
-    private static HttpHost host = new HttpHost("www.xmlsoccer.com");
-    private TeamsResponseConverter teamsResponseConverter = new TeamsResponseConverter();
-    private LeaguesConverter leaguesConverter = new LeaguesConverter();
+    private final CloseableHttpClient client;
+    private final HttpHost host;
+    private final TeamsResponseConverter teamsResponseConverter = new TeamsResponseConverter();
+    private final LeaguesConverter leaguesConverter = new LeaguesConverter();
 
+
+    XmlSoccerDemoClient() {
+        client = HttpClientBuilder.create().build();
+        host = new HttpHost("www.xmlsoccer.com");
+
+    }
 
     @Override
     public GetAllTeamsResponse getAllTeams() {
