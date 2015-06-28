@@ -1,5 +1,6 @@
-package com.sumb.livesport.xmlsoccer.converter;
+package com.sumb.livesport.xmlsoccer.demo.converter;
 
+import com.sumb.livesport.xmlsoccer.common.converter.GetAllTeamsResponseConverter;
 import com.sumb.livesport.xmlsoccer.domain.response.GetAllTeamsResponse;
 import com.sumb.livesport.xmlsoccer.domain.team.Team;
 import org.apache.http.HttpEntity;
@@ -21,7 +22,7 @@ import java.util.List;
  * @author Erik Möller <mailto:erik.moller@live.com>
  * @since 1.0
  */
-public class TeamsResponseConverter {
+public class TeamsResponseConverter implements GetAllTeamsResponseConverter {
 
     private JAXBContext jaxbContext;
     private Unmarshaller teamsResponseUnmarshaller;
@@ -39,6 +40,7 @@ public class TeamsResponseConverter {
         }
     }
 
+    @Override
     public GetAllTeamsResponse convert(HttpEntity httpEntity) throws IOException, JAXBException {
         return buildResponse(GetAllTeamsDemoResponse.class.cast(teamsResponseUnmarshaller.unmarshal(httpEntity.getContent())));
     }

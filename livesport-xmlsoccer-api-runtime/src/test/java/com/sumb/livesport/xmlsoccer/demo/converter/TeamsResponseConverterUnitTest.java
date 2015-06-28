@@ -1,4 +1,4 @@
-package com.sumb.livesport.xmlsoccer.converter;
+package com.sumb.livesport.xmlsoccer.demo.converter;
 
 import com.sumb.livesport.xmlsoccer.domain.response.GetAllTeamsResponse;
 import com.sumb.livesport.xmlsoccer.domain.team.Team;

@@ -1,5 +1,6 @@
 package com.sumb.livesport.xmlsoccer.client;
 
+import com.sumb.livesport.xmlsoccer.demo.client.XmlSoccerDemoClientFactory;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 /**
@@ -11,12 +12,12 @@ public class XmlSoccerClientFactory {
     public XmlSoccerClientFactory() {
     }
 
-    public XmlSoccerClient createProductionClient() {
+    public static XmlSoccerClient createProductionClient() {
         throw new NotImplementedException();
     }
 
-    public XmlSoccerClient createDemoClient() {
-        return new XmlSoccerDemoClient();
+    public static XmlSoccerClient createDemoClient(String host, String apiKey) {
+        return XmlSoccerDemoClientFactory.createDemoClient(host, apiKey);
     }
 
 }
