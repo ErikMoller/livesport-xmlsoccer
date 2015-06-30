@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlElement;
  */
 public class Team {
 
-    private short teamId;
+    private Integer teamId;
     private String name;
     private String country;
     private String stadium;
@@ -28,7 +28,7 @@ public class Team {
         this.wikiLink = builder.wikiLink;
     }
 
-    public short getTeamId() {
+    public Integer getTeamId() {
         return teamId;
     }
 
@@ -57,7 +57,7 @@ public class Team {
     }
 
     public static class Builder {
-        private short teamId;
+        private Integer teamId;
         private String name;
         private String country;
         private String stadium;
@@ -67,7 +67,7 @@ public class Team {
         private Builder() {
         }
 
-        public Builder withTeamId(short teamId) {
+        public Builder withTeamId(Integer teamId) {
             this.teamId = teamId;
             return this;
         }

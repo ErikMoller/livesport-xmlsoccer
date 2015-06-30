@@ -22,7 +22,7 @@
                             </xsd:appinfo>
                         </xsd:annotation>
                         <xsd:sequence>
-                            <xsd:element type="xsd:short" name="Team_Id"/>
+                            <xsd:element type="xsd:int" name="Team_Id"/>
                             <xsd:element type="xsd:string" name="Name"/>
                             <xsd:element type="xsd:string" name="Country"/>
                             <xsd:element type="xsd:string" name="Stadium"/>

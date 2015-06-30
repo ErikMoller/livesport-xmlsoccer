@@ -10,7 +10,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
  */
 public class League {
 
-    private byte id;
+    private Integer id;
     private String name;
     private String country;
     private String historicalData;
@@ -33,7 +33,7 @@ public class League {
         this.latestMatch = builder.latestMatch;
     }
 
-    public byte getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -70,7 +70,7 @@ public class League {
     }
 
     public static class Builder {
-        private byte id;
+        private Integer id;
         private String name;
         private String country;
         private String historicalData;
@@ -84,7 +84,7 @@ public class League {
 
         }
 
-        public Builder withId(byte id) {
+        public Builder withId(Integer id) {
             this.id = id;
             return this;
         }
