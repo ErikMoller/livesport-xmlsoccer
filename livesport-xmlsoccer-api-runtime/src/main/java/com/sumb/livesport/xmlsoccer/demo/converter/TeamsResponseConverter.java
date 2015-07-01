@@ -4,6 +4,7 @@ import com.sumb.livesport.xmlsoccer.common.converter.GetAllTeamsResponseConverte
 import com.sumb.livesport.xmlsoccer.domain.response.GetAllTeamsResponse;
 import com.sumb.livesport.xmlsoccer.domain.team.Team;
 import org.apache.http.HttpEntity;
+import org.apache.http.util.EntityUtils;
 import org.xml.sax.SAXException;
 import xmlsoccer.team.GetAllTeamsDemoResponse;
 
@@ -15,6 +16,7 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import java.io.IOException;
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +44,12 @@ public class TeamsResponseConverter implements GetAllTeamsResponseConverter {
 
     @Override
     public GetAllTeamsResponse convert(HttpEntity httpEntity) throws IOException, JAXBException {
-        return buildResponse(GetAllTeamsDemoResponse.class.cast(teamsResponseUnmarshaller.unmarshal(httpEntity.getContent())));
+        GetAllTeamsResponse response = buildResponse(GetAllTeamsDemoResponse.class.cast(teamsResponseUnmarshaller.unmarshal(convertEntityToStringReaderWithoutNameSpace(httpEntity))));
+        return response;
+    }
+
+    private StringReader convertEntityToStringReaderWithoutNameSpace(HttpEntity httpEntity) throws IOException {
+        return new StringReader(EntityUtils.toString(httpEntity).replaceAll(" xmlns=\\\".*\\\"", ""));
     }
 
     private GetAllTeamsResponse buildResponse(GetAllTeamsDemoResponse demoResponse) {

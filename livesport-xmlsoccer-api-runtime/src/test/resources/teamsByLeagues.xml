@@ -1,0 +1,105 @@
+<XMLSOCCER.COM>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>45</Team_Id>
+        <Name>Aberdeen</Name>
+        <Country>Scotland</Country>
+        <Stadium>Pittodrie Stadium</Stadium>
+        <HomePageURL>http://www.afc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Aberdeen_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>46</Team_Id>
+        <Name>St Johnstone</Name>
+        <Country>Scotland</Country>
+        <Stadium>McDiarmid Park</Stadium>
+        <HomePageURL>http://www.perthstjohnstonefc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/St._Johnstone_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>47</Team_Id>
+        <Name>Motherwell</Name>
+        <Country>Scotland</Country>
+        <Stadium>Fir Park Stadium</Stadium>
+        <HomePageURL>http://www.motherwellfc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Motherwell_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>48</Team_Id>
+        <Name>Inverness C</Name>
+        <Country>Scotland</Country>
+        <Stadium>Caledonian Stadium</Stadium>
+        <HomePageURL>http://ictfc.com</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.
+        </WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>51</Team_Id>
+        <Name>Dundee United</Name>
+        <Country>Scotland</Country>
+        <Stadium>Tannadice Park</Stadium>
+        <HomePageURL>http://www.dundeeunitedfc.co.uk</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Dundee_United_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>52</Team_Id>
+        <Name>Kilmarnock</Name>
+        <Country>Scotland</Country>
+        <Stadium>Rugby Park</Stadium>
+        <HomePageURL>http://www.kilmarnockfc.co.uk/page/Home</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Kilmarnock_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>54</Team_Id>
+        <Name>Celtic</Name>
+        <Country>Scotland</Country>
+        <Stadium>Celtic Park</Stadium>
+        <HomePageURL>http://www.celticfc.net</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Celtic_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>56</Team_Id>
+        <Name>St Mirren</Name>
+        <Country>Scotland</Country>
+        <Stadium>St. Mirren Park</Stadium>
+        <HomePageURL>http://www.saintmirren.net/pages/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/St._Mirren_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>228</Team_Id>
+        <Name>Hamilton</Name>
+        <Country>Scotland</Country>
+        <Stadium>New Douglas Park</Stadium>
+        <HomePageURL>http://www.acciesfc.co.uk/</HomePageURL>
+        <WIKILink>
+            http://en.wikipedia.org/wiki/Hamilton_Academical_F.C.
+        </WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>360</Team_Id>
+        <Name>Ross County</Name>
+        <Country>Scotland</Country>
+        <Stadium>Victoria Park</Stadium>
+        <HomePageURL>http://www.rosscountyfootballclub.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Ross_County_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>522</Team_Id>
+        <Name>Dundee FC</Name>
+        <Country>Scotland</Country>
+        <Stadium>Dens Park</Stadium>
+        <HomePageURL>http://www.dundeefc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Dundee_F.C.</WIKILink>
+    </Team>
+    <Team xmlns="http://xmlsoccer.com/Team">
+        <Team_Id>561</Team_Id>
+        <Name>Partick</Name>
+        <Country>Scotland</Country>
+        <Stadium>Firhill Stadium</Stadium>
+        <HomePageURL>http://www.ptfc.co.uk/</HomePageURL>
+        <WIKILink>http://en.wikipedia.org/wiki/Partick_Thistle_F.C.</WIKILink>
+    </Team>
+    <AccountInformation>
+        Data requested at 6/30/2015 11:01:03 PM from 155.4.62.202, Username: emlr. You are correctly logged into the Demo-service, and only records from the Scottish Premier League can be extracted here. If no data is shown, no matches were found using the specified parameters. If you are using the livescore-method and no matches are returned, it is because no matches is currently being played in the Scottish Premier League.
+    </AccountInformation>
+</XMLSOCCER.COM>

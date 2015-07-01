@@ -6,7 +6,7 @@ import org.apache.http.HttpEntity;
 import org.junit.Test;
 
 import javax.xml.bind.JAXBException;
-import java.io.IOException;
+import java.io.*;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -18,7 +18,18 @@ import static org.mockito.Mockito.when;
 public class TeamsResponseConverterUnitTest {
 
     @Test
-    public void test() throws IOException, JAXBException {
+    public void testTeamsByLeague() throws IOException, JAXBException {
+        TeamsResponseConverter converter = new TeamsResponseConverter();
+        HttpEntity httpEntity = mock(HttpEntity.class);
+        when(httpEntity.getContent()).thenReturn(ClassLoader.getSystemResourceAsStream("teamsByLeagues.xml"));
+        GetAllTeamsResponse getAllTeamsResponse = converter.convert(httpEntity);
+        for (Team team : getAllTeamsResponse.getTeams()) {
+            System.out.println(team.getName());
+        }
+    }
+
+    @Test
+    public void testTeams() throws IOException, JAXBException {
         TeamsResponseConverter converter = new TeamsResponseConverter();
         HttpEntity httpEntity = mock(HttpEntity.class);
         when(httpEntity.getContent()).thenReturn(ClassLoader.getSystemResourceAsStream("teams.xml"));
@@ -27,5 +38,4 @@ public class TeamsResponseConverterUnitTest {
             System.out.println(team.getName());
         }
     }
-
 }
