@@ -52,6 +52,20 @@ public abstract class AbstractXmlSoccerClient implements XmlSoccerClient {
     }
 
     @Override
+    public GetAllTeamsResponse getAllTeamsByLeagueAndSeason(String league, String season) {
+        CloseableHttpResponse response = null;
+        try {
+            response = client.execute(host, httpGetGenerator.allTeamsByLeagueAndSeasonHttpGet(league, season));
+            return getAllTeamsResponseConverter.convert(response.getEntity());
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JAXBException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    @Override
     public GetAllLeaguesResponse getAllLeagues() {
         CloseableHttpResponse response = null;
         try {

@@ -10,5 +10,7 @@ public interface XmlSoccerHttpGetGenerator {
 
     HttpGet allTeamsHttpGet();
 
+    HttpGet allTeamsByLeagueAndSeasonHttpGet(String league, String season);
+
     HttpGet allLeaguesHttpGet();
 }
